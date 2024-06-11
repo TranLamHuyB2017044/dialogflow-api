@@ -2,10 +2,9 @@ import os
 from google.cloud import dialogflow
 import uuid
 from flask import Flask, jsonify, request
-
+from flask_cors import CORS
 app = Flask(__name__)
-
-
+CORS(app)
 
 def detect_intent(project_id, session_id, text, language_code):
     session_client = dialogflow.SessionsClient()
