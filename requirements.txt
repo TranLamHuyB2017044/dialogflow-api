@@ -1,2 +1,3 @@
 Flask
 google-cloud-dialogflow
+flask_cors
