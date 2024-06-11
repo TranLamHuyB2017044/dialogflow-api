@@ -1,3 +1,2 @@
 Flask
-google.cloud
-google
+google-cloud-dialogflow
